@@ -98,9 +98,13 @@ header {
     width: 40%;
 }
 
-#buisness {
+main {
     width: 60%;
-    margin: 100px auto;
+    margin: 0 auto;
+}
+
+#buisness {
+    margin: 100px 0;
 }
 
 #buisness h2 {
@@ -117,6 +121,7 @@ header {
     line-height: 50px;
     width: 30%;
     margin-right: 3%;
+    font-size: 1.2em;
 }
 
 .margin-top {
@@ -127,7 +132,7 @@ header {
     display: block;
 }
 
-.col-blu {
+.blu {
     color: rgb(26, 26, 201);
 }
 
@@ -139,6 +144,16 @@ header {
 }
 
 .under-col {
-    margin-top: 50px;
+    margin: 50px 0;
     line-height: 60px;
+}
+
+.grey {
+    color: lightgrey;
+}
+
+.horizontal-col {
+    line-height: 50px;
+    border: 1px grey solid;
+    padding: 30px;
 }
