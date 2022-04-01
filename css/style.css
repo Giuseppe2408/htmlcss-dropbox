@@ -104,6 +104,10 @@ header {
     width: 30%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -172,7 +176,9 @@ header {
 }
 
 .horizontal {
-    padding-top: 1250px;
+    border: 1px solid grey;
+    padding: 50px;
+    margin: 100px 0;
     width: 100%;
 }
 
@@ -228,7 +234,32 @@ header {
 
 .row-square {
     width: 33%;
+    padding: 100px;
+}
+
+.row-square img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.bck-green {
     background-color: lightgreen;
 }
 
-.row-square
+.bck-purple {
+    background-color: purple;
+}
+
+.bck-red {
+    background-color: red;
+}
+
+.bck-azure {
+    background-color: aquamarine;
+}
+
+#cx {
+    background-color: grey;
+    width: 100%;
+}
