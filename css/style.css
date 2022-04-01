@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* regole generali */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,15 +12,57 @@ body {
     float: left;
 }
 
+.f-right {
+    float: right;
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.f-right {
-    float: right;
+/* width */
+.w-25 {
+    width: 25%;
 }
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+/* margin */
+.margin-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.marg {
+    margin: 15vh 0;
+}
+
+.margin {
+    margin: 50px 0;
+}
+
+/* .margin-right {
+    margin-right: 20px;
+} */
 
 .button {
     padding: 15px 20px;
@@ -90,36 +132,13 @@ header {
     margin-bottom: 30px;
 }
 
-.margin {
-    margin: 50px 0;
-}
-
 #jumbotron .container img {
     width: 100%;
     object-fit: contain;
     z-index: -10;
 }
 
-.w-30 {
-    width: 30%;
-}
-
-.w-40 {
-    width: 40%;
-}
-
-.w-60 {
-    width: 60%;
-}
-
-.w-70 {
-    width: 70%;
-}
-.margin-container {
-    width: 60%;
-    margin: 0 auto;
-}
-
+/* buisness colonne float */
 #buisness {
     margin: 100px 0;
 }
@@ -136,13 +155,9 @@ header {
     border: 1px grey solid;
     padding: 30px;
     line-height: 50px;
-    width: 30%;
-    margin-right: 3%;
+    width: 32%;
+    margin-right: 1.2%;
     font-size: 1.2em;
-}
-
-.margin-top {
-    margin-top: 50px;
 }
 
 .block {
@@ -159,12 +174,14 @@ header {
     font-size: 2em;
     border-bottom: 1px solid grey;
 }
-/* 
-.fas{
-    width: 20%;
-    height: 20px;
-    color: black;
-} */
+
+#h2font {
+    font-size: 1.5em;
+}
+
+.fa-check {
+    color: rgb(36, 36, 209);
+}
 
 .under-col {
     padding: 50px 0;
@@ -174,7 +191,7 @@ header {
 .grey {
     color: lightgrey;
 }
-
+/* colonna orizzontale */
 .horizontal {
     border: 1px solid grey;
     padding: 50px;
@@ -184,10 +201,6 @@ header {
 
 .font-size {
     font-size: 1.5em;
-}
-
-.marg {
-    margin: 15vh 0;
 }
 
 #special-button {
@@ -222,7 +235,7 @@ header {
 .h2style {
     font-size: 5em;
 }
-
+/* prova layout university */
 .university-layout {   
     width: 100%;
 
@@ -242,7 +255,7 @@ header {
     height: auto;
     object-fit: contain;
 }
-
+/* bckground img */
 .bck-green {
     background-color: lightgreen;
 }
@@ -262,4 +275,36 @@ header {
 #cx {
     background-color: grey;
     width: 100%;
+}
+/* domande hover con display none */
+#question {
+    width: 60%;
+    margin: 100px auto;
+    font-size: 1.5em;
+    line-height: 100px;
+}
+
+.border-bot {
+    border-bottom: 1px solid grey;
+}
+
+.dis-none {
+    display: none;
+}
+
+.appared-txt:hover .dis-none{
+    display: block;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 40vh;
+}
+
+.padding-top {
+    padding-top: 100px;
 }
