@@ -12,7 +12,7 @@ body {
     float: left;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -153,6 +153,12 @@ main {
     font-size: 2em;
     border-bottom: 1px solid grey;
 }
+/* 
+.fas{
+    width: 20%;
+    height: 20px;
+    color: black;
+} */
 
 .under-col {
     padding: 50px 0;
@@ -163,13 +169,49 @@ main {
     color: lightgrey;
 }
 
-.horizontal-col {
-    line-height: 50px;
-    border: 1px grey solid;
-    padding: 30px;
+.horizontal {
+    margin: 100px 0;
     width: 100%;
 }
 
 .font-size {
     font-size: 1.5em;
+}
+
+.marg {
+    margin: 15vh 0;
+}
+
+#special-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    width: 70%;
+}
+
+.img-resize {
+    object-fit: contain;
+    width: 100%;
+}
+
+.p-font {
+    font-size: 1.3em;
+}
+
+.margin-txt {
+    margin: 30px 0;
+}
+
+.layout {
+    width: 30%;
+    margin-right: 3%;
+}
+
+.layout img {
+    width: 100%;
+}
+
+.h2style {
+    font-size: 5em;
 }
