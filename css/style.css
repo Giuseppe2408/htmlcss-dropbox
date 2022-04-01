@@ -51,7 +51,6 @@ header {
     vertical-align: middle;
     position: fixed;
     z-index: 9999;
-    margin-bottom: 400px;
     background-color: white;
     font-size: 20px;
 }
@@ -71,7 +70,7 @@ header {
 
 #jumbotron {
     width: 100%;
-    /* height: 100vh; */
+    padding-top: 100px;
     background-color: rgb(115, 203, 224);
 }
 
@@ -109,7 +108,10 @@ header {
     width: 60%;
 }
 
-main {
+.w-70 {
+    width: 70%;
+}
+.margin-container {
     width: 60%;
     margin: 0 auto;
 }
@@ -170,7 +172,7 @@ main {
 }
 
 .horizontal {
-    margin: 100px 0;
+    padding-top: 1250px;
     width: 100%;
 }
 
@@ -187,7 +189,6 @@ main {
     color: black;
     border: 1px solid black;
     text-align: center;
-    width: 70%;
 }
 
 .img-resize {
@@ -214,4 +215,10 @@ main {
 
 .h2style {
     font-size: 5em;
+}
+
+.university-layout {
+    background-color: rgb(115, 203, 224);
+    width: 100%;
+    height: 200px;
 }
