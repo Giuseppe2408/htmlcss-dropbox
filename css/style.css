@@ -238,23 +238,36 @@ header {
 /* prova layout university */
 .university-layout {   
     width: 100%;
-
 }
 
 .square {
-    width: 33%;
+    width: calc(100%/3);
 }
 
 .row-square {
-    width: 33%;
+    width: 50%;
     padding: 100px;
 }
 
 .row-square img {
     width: 100%;
-    height: auto;
+    height: 150px;
     object-fit: contain;
+    filter: invert(1);
 }
+
+#cx {
+    font-size: 1.7em;
+    background-color: lightgrey;
+    width: 100%;
+    height: 710px;
+}
+
+#cx h2 {
+    font-size: 2em;
+    margin-bottom: 20%;
+}
+
 /* bckground img */
 .bck-green {
     background-color: lightgreen;
@@ -268,14 +281,38 @@ header {
     background-color: red;
 }
 
-.bck-azure {
+.bck-aqua {
     background-color: aquamarine;
 }
 
-#cx {
-    background-color: grey;
-    width: 100%;
+.bck-yellow {
+    background-color: rgb(219, 219, 0);
 }
+
+.bck-blue {
+    background-color: rgb(9, 9, 82);
+}
+
+.bck-azure {
+    background-color: rgb(169, 211, 245);
+}
+
+.azure-container {
+    padding: 200px 0;
+}
+
+.purple {
+    font-size: 3em;
+    color: purple;
+}
+
+#white-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
 /* domande hover con display none */
 #question {
     width: 60%;
@@ -307,4 +344,8 @@ footer {
 
 .padding-top {
     padding-top: 100px;
+}
+
+.padding {
+    padding: 100px 0;
 }
