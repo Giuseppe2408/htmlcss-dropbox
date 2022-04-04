@@ -342,7 +342,7 @@ header {
 
 .appared-txt:hover .dis-none{
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 /* footer */
@@ -351,7 +351,6 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
-    height: 40vh;
     line-height: 50px;
 }
 
@@ -361,4 +360,10 @@ footer {
 
 .padding {
     padding: 100px 0;
+}
+
+#border-footer {
+    border-bottom: 1px solid white;
+    margin: 50px 0;
+    width: 25%;
 }
