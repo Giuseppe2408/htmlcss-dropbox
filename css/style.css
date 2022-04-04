@@ -36,6 +36,10 @@ body {
     width: 40%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -62,6 +66,10 @@ body {
     margin: 50px 0;
 }
 
+.marg-200 {
+    margin: 230px 0;
+}
+
 .l-height-100 {
     line-height: 100px;
 }
@@ -77,6 +85,8 @@ body {
 .inl-block {
     display: inline-block;
 }
+
+
 
 .border-bot {
     border-bottom: 1px solid grey;
@@ -156,7 +166,7 @@ nav ul li:hover{
     width: 100%;
     padding-top: 100px;
     background-color: rgb(115, 203, 224);
-    height: 100vh;
+    height: 78vh;
 }
 
 #jumbotron .container {
@@ -167,16 +177,16 @@ nav ul li:hover{
 }
 
 #jumbotron .container h1 {
-    font-size: 5em;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .overlap-img {
-    height: 70vh;
+    margin-top: 50px;
 }
 
 .testo {
-    font-size: 2em;
+    font-size: 1.2em;
     margin-bottom: 30px;
 }
 
@@ -305,6 +315,11 @@ nav ul li:hover{
     width: 50%;
     padding: 100px;
     height: 300px;
+}
+
+.row-square:hover {
+    border: 20px solid rgb(209, 209, 209, 0.5);
+    cursor: pointer;    
 }
 
 .row-square img {
