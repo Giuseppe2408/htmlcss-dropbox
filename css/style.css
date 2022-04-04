@@ -43,7 +43,7 @@ body {
 .w-70 {
     width: 70%;
 }
-/* margin */
+/* margin l-height */
 .margin-container {
     width: 60%;
     margin: 0 auto;
@@ -61,10 +61,36 @@ body {
     margin: 50px 0;
 }
 
-.button {
-    padding: 15px 20px;
-    background-color: rgb(54, 54, 194);
-    color: white;
+.l-height-100 {
+    line-height: 100px;
+}
+/* display */
+.block {
+    display: block;
+}
+
+.dis-none {
+    display: none;
+}
+
+.inl-block {
+    display: inline-block;
+}
+
+.border-bot {
+    border-bottom: 1px solid grey;
+}
+/* padding */
+.padding-top {
+    padding-top: 100px;
+}
+
+.padding-autore {
+    padding: 7% 0;
+}
+
+.padding {
+    padding: 100px 0;
 }
 
 .white {
@@ -75,12 +101,15 @@ body {
     color: black;
 }
 
-.inl-block {
-    display: inline-block;
-}
-
 .underline-none {
     text-decoration: none;
+}
+
+
+.button {
+    padding: 15px 20px;
+    background-color: rgb(54, 54, 194);
+    color: white;
 }
 /* header nav */
 header {
@@ -178,9 +207,6 @@ nav ul li:hover{
     font-size: 1.2em;
 }
 
-.block {
-    display: block;
-}
 
 .blu {
     color: rgb(26, 26, 201);
@@ -259,26 +285,31 @@ nav ul li:hover{
 }
 
 .square {
-    width: calc(100%/3);
+    width: 30%;
+    height: 600px;
+}
+
+#central-square {
+    width: 40%;
+    font-size: 1.5em;
 }
 
 .row-square {
     width: 50%;
     padding: 100px;
+    height: 300px;
 }
 
 .row-square img {
     width: 100%;
-    height: 150px;
+    height: 100%;
     object-fit: contain;
     filter: invert(1);
 }
 
 #cx {
-    font-size: 1.7em;
-    background-color: lightgrey;
-    width: 100%;
-    height: 710px;
+    width: 80%;
+    margin: 50px auto;
 }
 
 #cx h2 {
@@ -286,10 +317,14 @@ nav ul li:hover{
 }
 
 .university-title {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
-/* bckground img */
+/* bckground color */
+.bck-grey {
+    background-color: rgb(221, 221, 221);
+}
+
 .bck-green {
     background-color: lightgreen;
 }
@@ -341,17 +376,7 @@ nav ul li:hover{
     font-size: 1.5em;
 }
 
-.l-height-100 {
-    line-height: 100px;
-}
 
-.border-bot {
-    border-bottom: 1px solid grey;
-}
-
-.dis-none {
-    display: none;
-}
 
 .appared-txt:hover .dis-none{
     display: block;
@@ -367,13 +392,7 @@ footer {
     line-height: 50px;
 }
 
-.padding-top {
-    padding-top: 100px;
-}
 
-.padding {
-    padding: 100px 0;
-}
 
 #border-footer {
     border-bottom: 1px solid white;
