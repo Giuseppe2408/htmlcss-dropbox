@@ -16,6 +16,7 @@ body {
     float: right;
 }
 
+
 .clearfix::after {
     content: "";
     display: table;
@@ -23,8 +24,8 @@ body {
 }
 
 /* width */
-.w-25 {
-    width: 25%;
+.w-20 {
+    width: 20%;
 }
 
 .w-30 {
@@ -60,10 +61,6 @@ body {
     margin: 50px 0;
 }
 
-/* .box-size {
-    box-sizing: inherit;
-} */
-
 .button {
     padding: 15px 20px;
     background-color: rgb(54, 54, 194);
@@ -97,17 +94,33 @@ header {
     font-size: 20px;
 }
 
-.nav {
+nav {
     width: 40%;
     margin: 0 auto;
     text-align: center;
 }
 
 
-.nav ul li {
+nav ul li {
    margin: 0 30px;
    list-style: none;
 }
+
+nav ul li:hover{
+    border-bottom: 2px solid rgb(66, 66, 228);
+    cursor: pointer;
+}
+
+.item {
+    display: none;
+    position: absolute;
+}
+
+#tendina:hover .item {
+    display: block; 
+    text-align: center;
+}
+
 
 /* jumbotron */
 #jumbotron {
